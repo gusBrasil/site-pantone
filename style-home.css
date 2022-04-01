@@ -4,7 +4,7 @@ html {
 
 /* fundo da página */
 body {
-    background-image: url(back-paint1.jpg);
+    background-image: url(media/back-paint1.jpg);
     background-attachment: fixed;
 }
 
@@ -13,7 +13,7 @@ body {
 /* tamanho e cor de fundo da header */
 .header {
     padding: 20px 25px;
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
     background-color: #eeeee4;
 }
@@ -46,7 +46,7 @@ nav {
 
 nav li {
 	display: inline;
-	padding: 0 0 0 170px;
+	padding: 0 0 0 157px;
 }
 
 nav a {
@@ -67,7 +67,7 @@ nav a:hover {
 
 /* Relacionado ao Main da página */
 .principal {
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
     background-color: #eeeee4;
     padding: 0 25px;
@@ -180,7 +180,7 @@ main p {
 
 /* Relacionado ao footer da página */
 .footer {
-    width: 1500px;
+    width: 1400px;
     margin: 0 auto;
     padding: 0 25px;
     background-color: #eeeee4;
