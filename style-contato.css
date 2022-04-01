@@ -115,21 +115,29 @@ form label, form legend {
 }
 
 .enviar {
-	width:40%;
+    position: relative;
+    width: 25%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	border: none;
+	border: transparent 4px solid;
 	border-radius: 5px;
 	transition: 1s all ease-in-out;
 	cursor: pointer;
 }
 
 .enviar:hover {
-	background: darkorange;
-	transform: scale(1.1);
+	background: white;
+    color: darkorange;
+    border: darkorange 4px solid;
+	transform: scale(1.05);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.seletor {
+    margin: 15px 0;
 }
 
 table {
