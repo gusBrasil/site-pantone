@@ -120,7 +120,7 @@ main p {
     max-width: 350px;
     float:right;
     margin: 25px;
-    transition: 400ms all ease-in-out;
+    transition: 2s all ease-in-out;
 }
 
 .bloco img:hover {
