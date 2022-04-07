@@ -1,0 +1,138 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* fundo da página */
+body {
+    background-image: url(media/back-paint1.jpg);
+    background-attachment: fixed;
+}
+
+/* tudo referente a header */
+
+/* tamanho e cor de fundo da header */
+.header {
+    padding: 20px 25px;
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #eeeee4;
+}
+
+.header-conteudo {
+    margin: 0 0 3em 0;
+}
+/* icone de maquina de lavar da header */
+header img {
+    position: relative;
+    max-width: 50px;
+    float: left;
+    z-index: 2;
+    transition: 300ms all ease-in-out;
+}
+
+
+header img:hover {
+    position: inherit;
+    transform: scale(1.1);
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* links de navegação do cabeçalho */
+nav {
+    position: relative;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav li {
+	display: inline;
+	padding: 0 0 0 157px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-decoration: none;
+    border-bottom: 0.5px solid transparent;
+    transition: 300ms all ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    color: darkgoldenrod;
+    border-bottom: 0.1px solid darkgoldenrod;
+}
+
+/* Relacionado ao Main da página */
+.principal {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #eeeee4;
+    padding: 0 25px;
+    line-height: 1.05;
+}
+
+/* subtítulo */
+main h4 {
+    border-top:white 2px inset;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: darkgreen;
+}
+
+/* título principal */
+main h2, strong {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+/* conteúdo de texto da página */
+main p {
+    margin-top: 1em;
+    width: 50rem;
+    font-size: 1.7em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* linha que separa main e footer */
+.fim-principal {
+    border-bottom:white 2px outset;
+    padding-bottom: 25px;
+}
+
+/* Relacionado ao footer da página */
+.footer {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 25px;
+    background-color: #eeeee4;
+}
+
+.footer h1 {
+    padding: 50px 0;
+    font-size: 2rem;
+    display: inline-flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Relacionado aos ícones do rodapé */
+.footer img {
+    float: right;
+    padding: 2rem 0.6rem 0 1.5rem;
+    width: 60px;
+    transition: 300ms all ease-in-out;
+}
+
+.footer img:hover {
+    transform: scale(1.3);
+}
