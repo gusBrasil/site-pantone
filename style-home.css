@@ -238,3 +238,7 @@ main p {
         float: none;
     }
 }
+
+#button-top {
+    position: absolute;
+}
