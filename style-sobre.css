@@ -109,12 +109,11 @@ main h2, strong {
 }
 
 h3 {
-    text-align: right;
     font-size: 2rem;
 }
 
 .comentario {
-    width: 50px;
+    float: inline-end;
     font-style: italic;
     width: auto;
 }
