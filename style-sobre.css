@@ -94,11 +94,29 @@ main h2, strong {
 }
 
 /* conteúdo de texto da página */
-main p {
+.historia {
     margin-top: 1em;
     width: 50rem;
     font-size: 1.7em;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.comentarios {
+    text-align: end;
+    width: 50rem;
+    font-size: 1.3em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3 {
+    text-align: right;
+    font-size: 2rem;
+}
+
+.comentario {
+    width: 50px;
+    font-style: italic;
+    width: auto;
 }
 
 /* linha que separa main e footer */
