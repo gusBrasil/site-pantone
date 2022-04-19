@@ -1,14 +1,10 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /* fundo da página */
 body {
     background-image: url(media/back-paint1.jpg);
     background-attachment: fixed;
 }
 
-/* tudo referente a header */
+/* Sessão referente à Header */
 
 /* tamanho e cor de fundo da header */
 .header {
@@ -21,6 +17,7 @@ body {
 .header-conteudo {
     margin: 0 0 3em 0;
 }
+
 /* icone de maquina de lavar da header */
 header img {
     position: relative;
@@ -65,7 +62,9 @@ nav a:hover {
     border-bottom: 0.1px solid darkgoldenrod;
 }
 
-/* Relacionado ao Main da página */
+/* Sessão referente ao Main da página */
+
+/*Fundo e corpo da sessão principal*/
 .principal {
     width: 80rem;
     margin: 0 auto;
@@ -106,7 +105,9 @@ main p {
     padding-bottom: 25px;
 }
 
-/* Relacionado ao footer da página */
+/* Sessão referente ao footer da página */
+
+/* Fundo e corpo do footer */
 .footer {
     width: 80rem;
     margin: 0 auto;
