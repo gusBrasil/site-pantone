@@ -36,7 +36,7 @@ header img:hover {
 
 /* links de navegação do cabeçalho */
 nav {
-    position: sticky;
+    position: relative;
     text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
