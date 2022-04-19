@@ -1,14 +1,10 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /* fundo da página */
 body {
     background-image: url(media/back-paint1.jpg);
     background-attachment: fixed;
 }
 
-/* tudo referente a header */
+/* Sessão referente à Header */
 
 /* tamanho e cor de fundo da header */
 .header {
