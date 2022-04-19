@@ -1,14 +1,10 @@
-html {
-    scroll-behavior: smooth;
-}
-
 /* fundo da página */
 body {
     background-image: url(media/back-paint1.jpg);
     background-attachment: fixed;
 }
 
-/* tudo referente a header */
+/* Sessão referente à Header */
 
 /* tamanho e cor de fundo da header */
 .header {
@@ -65,7 +61,9 @@ nav a:hover {
     border-bottom: 0.1px solid darkgoldenrod;
 }
 
-/* Relacionado ao Main da página */
+/* Sessão referente ao Main da página */
+
+/*Fundo e corpo da sessão principal*/
 .principal {
     width: 80rem;
     margin: 0 auto;
@@ -93,7 +91,7 @@ main h4 {
     margin-right: 50px;
 }
 
-
+/* formulário de contato */
 form {
 	margin: 40px 0;
 }
@@ -141,29 +139,15 @@ form label, form legend {
     margin: 15px 0;
 }
 
-table {
-	margin: 20px 0 40px;
-}
-
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-}
-
-td, th {
-	border: 20px solid #000000;
-	padding: 8px 15px;
-}
-
-
 /* linha que separa main e footer */
 .fim-principal {
     border-bottom:white 2px outset;
     padding-bottom: 25px;
 }
 
-/* Relacionado ao footer da página */
+/* Sessão referente ao footer da página */
+
+/* Fundo e corpo do footer */
 .footer {
     width: 80rem;
     margin: 0 auto;
