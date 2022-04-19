@@ -17,6 +17,7 @@ body {
 .header-conteudo {
     margin: 0 0 3em 0;
 }
+
 /* icone de maquina de lavar da header */
 header img {
     position: relative;
@@ -61,7 +62,9 @@ nav a:hover {
     border-bottom: 0.1px solid darkgoldenrod;
 }
 
-/* Relacionado ao Main da página */
+/* Sessão referente ao Main da página */
+
+/*Fundo e corpo da sessão principal*/
 .principal {
     width: 80rem;
     margin: 0 auto;
@@ -97,6 +100,7 @@ main h1, strong {
     transition: 400ms all ease-in-out;
 }
 
+/* Efeito de cor quando passa o mouse por cima do texto */
 .destaque:hover {
     background: -webkit-radial-gradient(red 15%, blue, yellow 60%);
     -webkit-background-clip: text;
