@@ -100,7 +100,7 @@ main h1, strong {
     transition: 400ms all ease-in-out;
 }
 
-/* Efeito de cor quando passa o mouse por cima do texto */
+/* Efeito de cor quando passa o mouse por cima da palavra */
 .destaque:hover {
     background: -webkit-radial-gradient(red 15%, blue, yellow 60%);
     -webkit-background-clip: text;
