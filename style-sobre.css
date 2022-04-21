@@ -101,20 +101,22 @@ main h2, strong {
 }
 
 .comentarios {
-    text-align: end;
+    margin-top: 10rem;
+    text-align: right;
     width: 50rem;
     font-size: 1.3em;
     font-family: 'Noto Sans', sans-serif;
-}
-
-h3 {
-    font-size: 2rem;
+    margin-left:28rem;
 }
 
 .comentario {
     float: inline-end;
     font-style: italic;
     width: auto;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 /* linha que separa main e footer */
