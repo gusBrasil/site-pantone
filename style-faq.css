@@ -108,6 +108,7 @@ main p {
     margin-top: 1em;
     font-size: 1.5em;
     font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
 }
 
 /* linha que separa main e footer */
