@@ -85,12 +85,6 @@ main h4 {
     color: darkgreen;
 }
 
-.mapa {
-    float: right;
-    margin-top: 30px;
-    margin-right: 50px;
-}
-
 /* formulário de contato */
 form {
 	margin: 40px 0;
@@ -114,7 +108,6 @@ form label, form legend {
 }
 
 .enviar {
-    position: relative;
     width: 25%;
 	padding: 15px 0;
 	background: orange;
@@ -138,6 +131,12 @@ form label, form legend {
 .seletor {
     margin: 15px 0;
 }
+
+
+.mapa {
+    margin: 0 auto;
+}
+
 
 /* linha que separa main e footer */
 .fim-principal {
@@ -175,4 +174,44 @@ form label, form legend {
 
 .footer img:hover {
     transform: scale(1.3);
+}
+
+/* Sessão de responsividade para celulares */
+@media screen and (max-width:480px) {
+    .header, .principal, .footer {
+        max-width: 100%;
+    }
+
+    header img {
+        margin: 0 50%;
+    }
+
+    nav ul, nav li, nav a, nav ul li {
+        width: fill;
+        text-align: justify;
+    }
+
+    main .input-padrao {
+        width: 80%;
+    }
+
+    .enviar {
+        width: 50%;
+    }
+
+    .footer-conteudo{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer-conteudo h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0 0 0;
+        text-align: center;
+    }
+
+    .footer-conteudo img {
+        padding: 1rem 10px;
+    }
 }
