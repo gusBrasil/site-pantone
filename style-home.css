@@ -20,7 +20,6 @@ body {
 
 /* icone de maquina de lavar da header */
 header img {
-    position: relative;
     max-width: 50px;
     float: left;
     z-index: 2;
@@ -214,10 +213,24 @@ main p {
 /* Sessão de responsividade para celulares */
 @media screen and (max-width:480px) {
     .header, .principal, .footer {
-        width: auto;
+        max-width: 100%;
+    }
+
+    .header-conteudo {
+        max-width: 100%;
+    }
+
+    header img {
+        margin: 0 50%;
+    }
+
+    nav ul, nav li, nav a, nav ul li {
+        width: fill;
+        text-align: justify;
     }
 
     .principal h1 {
+        text-align: center;
         font-size: 3.5rem;
     }
 
@@ -234,7 +247,15 @@ main p {
         margin: 0 auto;
     }
 
+    .redirect {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .footer-conteudo h1 {
+        padding: 1rem 0 0 0;
         text-align: center;
     }
 
