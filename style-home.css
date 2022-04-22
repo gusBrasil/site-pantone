@@ -239,11 +239,13 @@ main p {
     }
 
     .principal img {
-        display: inline;
-        width: 10rem;
+        width: 30%;
     }
 
     .botoes {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
         margin: 0 auto;
     }
 
